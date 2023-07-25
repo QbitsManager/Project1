@@ -12,7 +12,7 @@ def format_history(prev_expressions):
 
 
 def calculator():
-  sg.theme('Dark Blue 2')
+  sg.theme('Blue')
   layout = [
     [
       sg.Input(key='input',
