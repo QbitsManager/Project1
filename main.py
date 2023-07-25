@@ -2,7 +2,7 @@ import PySimpleGUI as sg
 import math
 def format_history(prev_expressions):
   if len(prev_expressions) == 0:
-    return "No history"
+    return "No history to show"
 
   n = min(len(prev_expressions), 6)
   history_str = "Last " + str(n) + " expressions:\n\n"
@@ -22,7 +22,7 @@ def calculator():
       sg.Button('X', size=(4, 2), button_color=('white', 'red'))
     ],
     [
-      sg.Button('1', size=(4, 2), button_color=('white', 'blue')),
+      sg.Button('1', size=(4, 2), button_color=('white', 'green')),
       sg.Button('2', size=(4, 2), button_color=('white', 'blue')),
       sg.Button('3', size=(4, 2), button_color=('white', 'blue')),
       sg.Button('+', size=(4, 2), button_color=('white', 'green')),
@@ -30,7 +30,7 @@ def calculator():
      
     ],
     [
-      sg.Button('4', size=(4, 2), button_color=('white', 'blue')),
+      sg.Button('4', size=(4, 2), button_color=('white', 'yellow')),
       sg.Button('5', size=(4, 2), button_color=('white', 'blue')),
       sg.Button('6', size=(4, 2), button_color=('white', 'blue')),
       sg.Button('-', size=(4, 2), button_color=('white', 'green')),
