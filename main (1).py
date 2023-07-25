@@ -33,7 +33,7 @@ def calculator():
       sg.Button('4', size=(4, 2), button_color=('white', 'blue')),
       sg.Button('5', size=(4, 2), button_color=('white', 'blue')),
       sg.Button('6', size=(4, 2), button_color=('white', 'blue')),
-      sg.Button('-', size=(4, 2), button_color=('white', 'green')),
+      sg.Button('-', size=(4, 2), button_color=('white', 'yellow')),
        sg.Button('pow', size=(4, 2), button_color=('white', 'blue')),
      
     ],
