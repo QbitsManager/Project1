@@ -6,7 +6,7 @@ def format_history(prev_expressions):
 
   n = min(len(prev_expressions), 6)
   history_str = "Last " + str(n) + " expressions:\n\n"
-  for i in range(-n, 1):
+  for i in range(-n, 0):
     history_str += prev_expressions[i] + "\n"
   return history_str
 
